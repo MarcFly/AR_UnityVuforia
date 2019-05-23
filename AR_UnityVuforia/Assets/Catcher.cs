@@ -11,7 +11,7 @@ public class Catcher : MonoBehaviour {
 	}
 
     // Update is called once per frame
-    private void OnTriggerEnter(Collider other)
+    void OnTriggerEnter(Collider other)
     {
         manager.points += 50;
         if (other.gameObject.name == manager.Fruits[manager.current_good_fruit].name)

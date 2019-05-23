@@ -30,7 +30,7 @@ public class Spawner : MonoBehaviour {
         }        
 	}
 
-    private void OnTriggerEnter(Collider other)
+    void OnTriggerEnter(Collider other)
     {
         Destroy(other.gameObject);
     }
