@@ -17,6 +17,7 @@ public class Catcher : MonoBehaviour {
         if (other.gameObject.name == manager.Fruits[manager.current_good_fruit].name)
             manager.points += 50;
 
-        Destroy(other.gameObject);   
+        Destroy(other.gameObject);
+        manager.past_score = manager.points;
     }
 }

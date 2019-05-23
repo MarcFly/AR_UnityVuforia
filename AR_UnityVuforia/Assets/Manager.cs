@@ -9,24 +9,25 @@ public class Manager : MonoBehaviour {
     public float timer;
     public float timer_2;
     public int points;
+    public GameObject UICanvas;
     public GameObject[] Fruits = new GameObject[9];
     public int current_good_fruit;
-
+    public int past_score;
     public Button StartB;
     public Button HowToB;
-    public GameObject UICanvas;
+    public Text score;
 
-	// Use this for initialization
-	void Start () {
+
+    // Use this for initialization
+    void Start () {
         playing = false;
         timer = 0;
         timer_2 = 0;
         points = 0;
+        past_score = points;
         current_good_fruit = 10;
-
         StartB = GameObject.FindGameObjectWithTag("StartB").GetComponent<Button>();
         StartB.onClick.AddListener(StartPlay);
-
         UICanvas = GameObject.FindGameObjectWithTag("Respawn");
     }
 	
@@ -41,9 +42,14 @@ public class Manager : MonoBehaviour {
             {
                 current_good_fruit = Random.Range(0, 8);
             }
+
+            if(points != past_score)
+            {
+                score.text = "Score: " + points.ToString();
+            }
         }
 
-        if(timer > 60000)
+        if(timer > 1000)
         {
             playing = false;
             timer = 0;
@@ -51,7 +57,8 @@ public class Manager : MonoBehaviour {
             UICanvas.SetActive(true);
         }
 
-	}
+     
+    }
     
     public void StartPlay()
     {
@@ -59,6 +66,7 @@ public class Manager : MonoBehaviour {
         timer = 0;
         timer_2 = 0;
         points = 0;
+        past_score = points;
         current_good_fruit = Random.Range(0, 8);
         UICanvas.SetActive(false);
     }

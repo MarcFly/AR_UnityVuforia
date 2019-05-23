@@ -8,6 +8,7 @@ TagManager:
   - Manager
   - StartB
   - HowB
+  - Score
   layers:
   - Default
   - TransparentFX
