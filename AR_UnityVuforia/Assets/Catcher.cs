@@ -19,6 +19,8 @@ public class Catcher : MonoBehaviour {
             manager.points += 50;
 
         Destroy(other.gameObject);
-        GameObject.Instantiate(particle);
+        Vector3 pos = gameObject.transform.position;
+        pos.y += 30;
+        GameObject.Instantiate(particle, pos, gameObject.transform.rotation);
     }
 }

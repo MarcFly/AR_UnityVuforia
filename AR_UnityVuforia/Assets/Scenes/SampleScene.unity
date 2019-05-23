@@ -553,48 +553,6 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 907675184}
   m_CullTransparentMesh: 0
---- !u!1001 &927016275
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4877463496714258, guid: 842edf4c184b784458b4b5e310cc42f0, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: -921.13934
-      objectReference: {fileID: 0}
-    - target: {fileID: 4877463496714258, guid: 842edf4c184b784458b4b5e310cc42f0, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: -848.91016
-      objectReference: {fileID: 0}
-    - target: {fileID: 4877463496714258, guid: 842edf4c184b784458b4b5e310cc42f0, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 1359.7068
-      objectReference: {fileID: 0}
-    - target: {fileID: 4877463496714258, guid: 842edf4c184b784458b4b5e310cc42f0, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4877463496714258, guid: 842edf4c184b784458b4b5e310cc42f0, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4877463496714258, guid: 842edf4c184b784458b4b5e310cc42f0, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4877463496714258, guid: 842edf4c184b784458b4b5e310cc42f0, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4877463496714258, guid: 842edf4c184b784458b4b5e310cc42f0, type: 2}
-      propertyPath: m_RootOrder
-      value: 6
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 842edf4c184b784458b4b5e310cc42f0, type: 2}
-  m_IsPrefabAsset: 0
 --- !u!1 &961871290
 GameObject:
   m_ObjectHideFlags: 0
@@ -1065,7 +1023,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   manager: {fileID: 0}
-  particle: {fileID: 0}
+  particle: {fileID: 1554343208831850, guid: 842edf4c184b784458b4b5e310cc42f0, type: 2}
 --- !u!1 &1493561956
 GameObject:
   m_ObjectHideFlags: 0
