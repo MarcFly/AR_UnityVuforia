@@ -15,10 +15,10 @@ MonoBehaviour:
     vuforiaLicenseKey: AfKrLIz/////AAABmXril2N6RU60j3rygJomv01b8UB3uyD5NPdtKRHU417/RGcay6LesYXfgO2vInysi+PQGTuSBPyY1y+Os3wZ654g3rcCBsrHVqbtctc6w+owcIip0pce4s1Qk7WowCwGLdtra1hGH0xrd5uyyuknu31qUCG2cGPE6gnAV8rvmk9VPwZ5oqrFX88E/yYhAOvPxLQn8LPjdeXb4hra/gNo33cF9vDZEx7FP9PaATF68OBQkCfZvNgmaH5VSArvFlytSyJpRb6CbGzwlzyGYnU/Gaxo2Liu1W2PsFEPz85NorFhSSMKG6Hrd4xtPJRVS9ACRvv6+mZhndB82g5VCOwAQQAF0Fm5QY8bSB54o0Do8+GV
     ufoLicenseKey: QVhBOEphMy8vLy8vQUFBQUtGSTNRMWJBdDA5TWwybFFnZVNwVzJBU3hqaGF3d0s0VDVOaE1nK0RJeWtFcW5hVWpqcVFsMHV0Y1lIMlhOSFZiUWRJYU1TRmppOFlja2NEYks2aXhGc2pkeWkxek9ucEFuTXg4ZzBIQ3NvT0dhMXNNQjlxNTMxeVBMMVc4bmdBRHZFSlFOeUxneFNnSVRpVm16WFA4aGFnQXZ4aGRiL1lwbG5CcGMwK0dCbVBJU1NmRnpWWitPai9JUUVQS0dzR3cvR2xTSjZvSHpWNEhld2NuVVkweVVZWkp3bWt0SHk4Kzh0UXUreWFBL0VQbTBpaGp6UWQwbGZHZ3NtWDk4a0c4QzVXK1RtZ2VYTFpHS3ZxenFweDV6ZndDR1hNT0w5RDNhYm5pV0NoZlNNZnZ4Q3FTeUdLVVJOWVRxMjFBTkNNZFkvK0p2aFZuVXdqaENlbG1TeXRod2RFeXlQSWpCK3BOcWNVL1UvdSt2djA=
     delayedInitialization: 0
-    cameraDeviceModeSetting: -1
-    maxSimultaneousImageTargets: 1
-    maxSimultaneousObjectTargets: 1
-    useDelayedLoadingObjectTargets: 0
+    cameraDeviceModeSetting: -2
+    maxSimultaneousImageTargets: 2
+    maxSimultaneousObjectTargets: 2
+    useDelayedLoadingObjectTargets: 1
     cameraDirection: 0
     mirrorVideoBackground: 0
     version: 8.0.10
@@ -63,7 +63,7 @@ MonoBehaviour:
     autoInitTracker: 0
     autoStartTracker: 0
   webcam:
-    deviceNameSetInEditor: 
+    deviceNameSetInEditor: HD Pro Webcam C920
     flipHorizontally: 0
     turnOffWebCam: 0
     renderTextureLayer: 30
