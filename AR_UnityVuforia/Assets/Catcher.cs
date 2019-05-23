@@ -18,6 +18,5 @@ public class Catcher : MonoBehaviour {
             manager.points += 50;
 
         Destroy(other.gameObject);
-        manager.past_score = manager.points;
     }
 }

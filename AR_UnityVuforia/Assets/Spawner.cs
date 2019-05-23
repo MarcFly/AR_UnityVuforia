@@ -11,7 +11,7 @@ public class Spawner : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         manager = GameObject.FindGameObjectWithTag("Manager").GetComponent<Manager>();
-        end = gameObject.GetComponent<BoxCollider>();
+        //end = gameObject.GetComponent<BoxCollider>();
     }
 	
 	// Update is called once per frame

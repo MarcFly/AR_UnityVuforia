@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 33660874149414388}
   - component: {fileID: 23053647269642574}
   - component: {fileID: 54914388277102474}
+  - component: {fileID: 65789660891825344}
   m_Layer: 0
   m_Name: peach
   m_TagString: Fruit
@@ -99,3 +100,15 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &65789660891825344
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1541859410316496}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.016303506, y: 0.015081163, z: 0.016258402}
+  m_Center: {x: 0.0010625503, y: 0.00045279335, z: 0.0000000018626448}

@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 33630388730842040}
   - component: {fileID: 23874901463228454}
   - component: {fileID: 54860207974612990}
+  - component: {fileID: 65759762351931558}
   m_Layer: 0
   m_Name: banana
   m_TagString: Fruit
@@ -99,3 +100,15 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &65759762351931558
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1407451490957870}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.014319027, y: 0.01055038, z: 0.014842815}
+  m_Center: {x: -0.0012692912, y: 0.0009908592, z: 0}

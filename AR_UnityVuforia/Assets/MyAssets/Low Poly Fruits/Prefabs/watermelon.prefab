@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 33242410565983870}
   - component: {fileID: 23610094137429016}
   - component: {fileID: 54081837063657586}
+  - component: {fileID: 65536774586629556}
   m_Layer: 0
   m_Name: watermelon
   m_TagString: Fruit
@@ -99,3 +100,15 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &65536774586629556
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1125202155953082}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.016995829, y: 0.014766387, z: 0.013207786}
+  m_Center: {x: 0.0001944243, y: 0.0010620984, z: 0}

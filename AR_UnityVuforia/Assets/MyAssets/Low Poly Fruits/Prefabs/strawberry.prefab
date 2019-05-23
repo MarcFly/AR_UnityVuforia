@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 33467545753722788}
   - component: {fileID: 23644498670348300}
   - component: {fileID: 54675124428624068}
+  - component: {fileID: 65269768825597818}
   m_Layer: 0
   m_Name: strawberry
   m_TagString: Fruit
@@ -99,3 +100,15 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &65269768825597818
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1724972533694550}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.012801476, y: 0.01282423, z: 0.015927065}
+  m_Center: {x: 0.00009602611, y: -0.000020088159, z: -4.656612e-10}

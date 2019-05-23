@@ -1168,8 +1168,8 @@ GameObject:
   - component: {fileID: 1244966392}
   - component: {fileID: 1244966391}
   - component: {fileID: 1244966390}
-  - component: {fileID: 1244966396}
   - component: {fileID: 1244966397}
+  - component: {fileID: 1244966396}
   m_Layer: 0
   m_Name: Center Target
   m_TagString: Untagged
@@ -1285,8 +1285,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a84d3cc92ac5fd848998700dc23e64bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  manager: {fileID: 0}
-  end: {fileID: 0}
+  manager: {fileID: 841080121}
+  end: {fileID: 1244966397}
 --- !u!65 &1244966397
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1297,7 +1297,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 22.38, y: 0, z: 18.81}
+  m_Size: {x: 22.38, y: 0.1, z: 18.81}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1416777064
 GameObject:
@@ -1416,11 +1416,11 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1419104288}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.3890398, y: 0.4353704, z: 0.44922468}
-  m_Center: {x: 0, y: 0.21768561, z: 0.00000008940697}
+  m_Size: {x: 0.3387729, y: 0.4353704, z: 0.38363907}
+  m_Center: {x: -0.025133057, y: 0.21768561, z: -0.032792967}
 --- !u!114 &1419104291
 MonoBehaviour:
   m_ObjectHideFlags: 0

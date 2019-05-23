@@ -46,6 +46,7 @@ public class Manager : MonoBehaviour {
             if(points != past_score)
             {
                 score.text = "Score: " + points.ToString();
+                past_score = points;
             }
         }
 

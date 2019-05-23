@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 33317395272862110}
   - component: {fileID: 23272747751323546}
   - component: {fileID: 54642878643126328}
+  - component: {fileID: 65827298204400774}
   m_Layer: 0
   m_Name: cherries
   m_TagString: Fruit
@@ -99,3 +100,15 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &65827298204400774
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1802840387486672}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.014578918, y: 0.012921382, z: 0.016079433}
+  m_Center: {x: -0.00038395217, y: -0.00029923808, z: 0}
