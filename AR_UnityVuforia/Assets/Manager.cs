@@ -14,7 +14,6 @@ public class Manager : MonoBehaviour {
     public int current_good_fruit;
     public int past_score;
     public Button StartB;
-    public Button HowToB;
     public Text score;
 
 
@@ -38,7 +37,7 @@ public class Manager : MonoBehaviour {
             timer += Time.deltaTime;
             timer_2 += Time.deltaTime;
 
-            if(timer_2 > 5000)
+            if(timer_2 > 5)
             {
                 current_good_fruit = Random.Range(0, 8);
             }
@@ -50,12 +49,14 @@ public class Manager : MonoBehaviour {
             }
         }
 
-        if(timer > 1000)
+        if(timer > 30)
         {
             playing = false;
             timer = 0;
             timer_2 = 0;
             UICanvas.SetActive(true);
+            
+            GameObject.FindGameObjectWithTag("HowB").GetComponent<Text>().text = "Last Score: " + points.ToString();
         }
 
      

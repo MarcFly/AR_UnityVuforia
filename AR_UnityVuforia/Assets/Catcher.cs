@@ -5,8 +5,9 @@ using UnityEngine;
 public class Catcher : MonoBehaviour {
 
     public Manager manager;
-	// Use this for initialization
-	void Start () {
+    public GameObject particle;
+    // Use this for initialization
+    void Start () {
         manager = GameObject.FindGameObjectWithTag("Manager").GetComponent<Manager>();
 	}
 
@@ -18,5 +19,6 @@ public class Catcher : MonoBehaviour {
             manager.points += 50;
 
         Destroy(other.gameObject);
+        GameObject.Instantiate(particle);
     }
 }
