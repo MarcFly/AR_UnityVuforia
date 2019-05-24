@@ -20,9 +20,9 @@ public class Spawner : MonoBehaviour {
         {
             int fruit_n = Random.Range(0, 8);
             Vector3 pos;
-            pos.x =  gameObject.transform.position.x + Random.Range(-1, 1) * 50;
+            pos.x =  gameObject.transform.position.x + Random.Range(-70, 70);
             pos.y = gameObject.transform.position.y + 60;
-            pos.z = gameObject.transform.position.z + Random.Range(-1, 1) * 50;
+            pos.z = gameObject.transform.position.z + Random.Range(-70, 70);
             
             Instantiate(manager.Fruits[fruit_n], pos, Quaternion.identity);
 

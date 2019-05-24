@@ -14,8 +14,10 @@ public class Manager : MonoBehaviour {
     public int current_good_fruit;
     public int past_score;
     public Button StartB;
-    public Text score;
 
+    public Text score;
+    public Text bonusFruit;
+    public Text TimeText;
 
     // Use this for initialization
     void Start () {
@@ -28,6 +30,10 @@ public class Manager : MonoBehaviour {
         StartB = GameObject.FindGameObjectWithTag("StartB").GetComponent<Button>();
         StartB.onClick.AddListener(StartPlay);
         UICanvas = GameObject.FindGameObjectWithTag("Respawn");
+
+        score = GameObject.FindGameObjectWithTag("Score").GetComponent<Text>();
+        TimeText = GameObject.FindGameObjectWithTag("HowB").GetComponent<Text>();
+        bonusFruit = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Text>();
     }
 	
 	// Update is called once per frame
@@ -40,6 +46,7 @@ public class Manager : MonoBehaviour {
             if(timer_2 > 5)
             {
                 current_good_fruit = Random.Range(0, 8);
+                timer_2 = 0;
             }
 
             if(points != past_score)
@@ -55,11 +62,15 @@ public class Manager : MonoBehaviour {
             timer = 0;
             timer_2 = 0;
             UICanvas.SetActive(true);
-            
-            GameObject.FindGameObjectWithTag("HowB").GetComponent<Text>().text = "Last Score: " + points.ToString();
+            current_good_fruit = 10;
         }
 
-     
+        score.text = points.ToString();
+        TimeText.text = timer.ToString();
+        if(current_good_fruit < 10)
+            bonusFruit.text = Fruits[current_good_fruit].name;
+        else
+            bonusFruit.text = "Bonus Fruit";
     }
     
     public void StartPlay()
